@@ -3,6 +3,12 @@ body {
     margin: 0;
 }
 
+#profile-container {
+    background-color: white;
+    height: 500px;
+    width: 100%;
+}
+
 #text-container {
     color: white;
     display: inline-block;
