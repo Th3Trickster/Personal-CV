@@ -14,10 +14,19 @@ h1 {
 h2 {
     font-size: 54px;
     margin: 0;
+    padding-top: 60px;
 }
 
 h3 {
     font-size: 25px;
+    text-align: left;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 hr {
@@ -25,7 +34,6 @@ hr {
 }
 
 #about-me {
-    /* float: left; */
     position: absolute;
     left: 100px;
     width: 225px;
@@ -35,8 +43,11 @@ hr {
     margin-top: 0;
 }
 
+#cert-container {
+    text-align: center;
+}
+
 #details {
-    /* float: left; */
     position: absolute;
     right: 200px;
 }
@@ -48,6 +59,11 @@ hr {
 #details p {
     margin-bottom: 0;
     margin-top: 0;
+}
+
+#experiences {
+    background-color: #f3efe0;
+    margin-top: 135px;
 }
 
 #img-container {
@@ -113,8 +129,33 @@ hr {
 
 .container {
     height: 100%;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     width: 100%;
+}
+
+.course-description-container {
+    display: inline-block;
+    position: absolute;
+    vertical-align: top;
+}
+
+.location-date-container {
+    display: inline-block;
+    text-align: left;
+    width: 30%;
+}
+
+.location-date-container p {
+    margin-top: 0;
+}
+
+.row {
+    text-align: left;
+    width: 100%;
+}
+
+.row-spacing {
+    margin-top: 250px;
 }
 
 .twitter-follow-button {
