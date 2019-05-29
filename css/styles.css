@@ -134,14 +134,15 @@ hr {
 }
 
 .course-description-container {
-    display: inline-block;
-    position: absolute;
+    float: right;
     vertical-align: top;
+    width: 70%;
 }
 
 .location-date-container {
-    display: inline-block;
-    text-align: left;
+    float: left;
+    height: 100%;
+    vertical-align: top;
     width: 30%;
 }
 
@@ -150,12 +151,10 @@ hr {
 }
 
 .row {
+    margin-bottom: 50px;
+    min-height: 100px;
+    overflow: hidden;
     text-align: left;
-    width: 100%;
-}
-
-.row-spacing {
-    margin-top: 250px;
 }
 
 .twitter-follow-button {
