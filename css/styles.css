@@ -33,6 +33,14 @@ hr {
     opacity: .3;
 }
 
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
+
 #about-me {
     position: absolute;
     left: 100px;
@@ -64,6 +72,10 @@ hr {
 #experiences {
     background-color: #f3efe0;
     margin-top: 135px;
+}
+
+#contact {
+    background-color: #434242;
 }
 
 #img-container {
@@ -104,9 +116,16 @@ hr {
     width: 100%;
 }
 
+.abilities-column {
+    float: left;
+    text-align: left;
+    width: 50%;
+}
+
 .center-container {
     height: 100%;
     margin: 0 auto;
+    overflow: hidden;
     position: relative;
     text-align: center;
     width: 50%;
@@ -129,7 +148,6 @@ hr {
 
 .container {
     height: 100%;
-    /* margin-top: 50px; */
     width: 100%;
 }
 
@@ -155,6 +173,15 @@ hr {
     min-height: 100px;
     overflow: hidden;
     text-align: left;
+}
+
+.star-container {
+    float: right;
+    width: 30%;
+}
+
+.star-filled {
+    float: left;
 }
 
 .twitter-follow-button {
