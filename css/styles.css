@@ -179,6 +179,12 @@ ul {
     margin-top: 0;
 }
 
+.projects-container {
+    margin-bottom: 50px;
+    overflow: hidden;
+    width: 100%;
+}
+
 .row {
     margin-bottom: 50px;
     min-height: 100px;
@@ -197,6 +203,12 @@ ul {
 
 .twitter-follow-button {
     margin-top: 10px;
+}
+
+.website-preview-container {
+    display: inline-block;
+    padding-bottom: 9px;
+    padding-left: 15px;
 }
 
 /* TODO:
