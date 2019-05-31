@@ -93,6 +93,10 @@ ul {
     margin: 100px auto 0
 }
 
+#projects {
+    background-color: #f3efe0;
+}
+
 #text-container {
     /* Update font size with rem */
     color: white;
@@ -118,8 +122,15 @@ ul {
 
 .abilities-column {
     float: left;
+    margin-bottom: 50px;
     text-align: left;
     width: 50%;
+}
+
+.abilities-container {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 80%;
 }
 
 .center-container {
@@ -177,7 +188,7 @@ ul {
 
 .star-container {
     float: right;
-    width: 30%;
+    width: 50%;
 }
 
 .star-filled {
